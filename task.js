@@ -17,7 +17,7 @@ let timer = setInterval(function () {
         // file download
         let url = document.createElement('a');
         url.href = 'file.file';
-        url.click()
+        url.click();
     } else {
         // timer is going
         initialTimer.textContent = new Date(1970, 0, 0, 0, 0,  timeRest / 1000).toLocaleTimeString();
